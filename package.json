@@ -1,0 +1,32 @@
+{
+  "name": "dropzone",
+  "version": "1.0.0",
+  "description": "Examples to show the power of dropzone",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "dropzone": "^6.0.0-beta.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "sortablejs": "^1.15.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultra-elite-dev/dropzone.git"
+  },
+  "author": "Umair Qureshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ultra-elite-dev/dropzone/issues"
+  },
+  "homepage": "https://github.com/ultra-elite-dev/dropzone#readme"
+}
