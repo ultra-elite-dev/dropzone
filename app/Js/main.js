@@ -38,21 +38,6 @@ let myDropZone = new Dropzone("#my-form", {
             e.stopPropagation();
             myDropZone.processQueue();
         });
-    },
-    removedfile: function (file) {
-        fetch('/dropzone/app/upload.php',{
-            method: 'POST',
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                'fileName': file.upload.filename,
-                'remove': true
-            })
-        }).then((data) => {
-            file.previewElement.remove();
-            return true;
-        });
     }
 });
 
